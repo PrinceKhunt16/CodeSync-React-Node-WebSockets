@@ -7,3 +7,156 @@
   padding: 0;
   font-family: 'Roboto';
 }
+
+body {
+  background: #272934;
+}
+
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: #d7ecfe;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.logo {
+  font-family: 'Caveat';
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.inputBox {
+  background-color: #98d2fc72;
+  padding: 12px 10px;
+  border-radius: 1px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.inputBox::placeholder {
+  color: #00000099;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  background: #98d2fcb4;
+  width: 100px;
+  margin-left: auto;
+  font-weight: 500;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  background: #d7ecfe;
+  padding: 15px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoInEditor {
+  color: #000;
+  font-family: 'Caveat';
+  font-size: 36px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.leaveBtn {
+  margin-top: 10px;
+}
+
+.copyBtn,
+.leaveBtn {
+  width: 100%;
+  background: #98d2fcb4;
+  border-radius: 1px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.icons {
+  background: #98d2fce8 !important;
+  color: #000 !important;
+  letter-spacing: 0.2px;
+}
+
+.icons span {
+  font-size: 15px !important;
+  font-weight: 500;
+}
