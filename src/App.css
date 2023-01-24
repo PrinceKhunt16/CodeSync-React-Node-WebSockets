@@ -185,9 +185,9 @@ body {
   max-height: 100vh;
   height: 100%;
 }
-
-.codeEditorWrapper .CodeMirror-code::-webkit-scrollbar {
-  width: 0px;
+ 
+::-webkit-scrollbar {
+  display: none;
 }
 
 .CodeMirror-cursors {
