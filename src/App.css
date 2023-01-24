@@ -5,7 +5,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
 }
 
 body {
@@ -42,6 +41,7 @@ body {
 }
 
 .mainLabel {
+  font-family: 'Roboto';
   margin-bottom: 20px;
   margin-top: 0;
   font-weight: 400;
@@ -50,6 +50,7 @@ body {
 }
 
 .inputBox {
+  font-family: 'Roboto';
   background-color: #98d2fc72;
   padding: 12px 10px;
   border-radius: 1px;
@@ -66,6 +67,7 @@ body {
 }
 
 .btn {
+  font-family: 'Roboto';
   border: none;
   padding: 10px;
   border-radius: 1px;
@@ -82,6 +84,7 @@ body {
 }
 
 .createInfo {
+  font-family: 'Roboto';
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -123,6 +126,11 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-family: 'Roboto';
+}
+
+.client div {
+  font-family: 'Roboto';
 }
 
 .logoInEditor {
@@ -141,6 +149,7 @@ body {
 
 .copyBtn,
 .leaveBtn {
+  font-family: 'Roboto';
   width: 100%;
   background: #98d2fcb4;
   border-radius: 1px;
@@ -159,4 +168,29 @@ body {
 .icons span {
   font-size: 15px !important;
   font-weight: 500;
+}
+
+.editorWrap {
+  background: #fff;
+}
+
+.CodeMirror {
+  border-radius: 0px !important;
+  font-family: 'Menlo' !important;
+  font-size: 16px !important;
+  line-height: 1.4;
+}
+
+.codeEditorWrapper {
+  max-height: 100vh;
+  height: 100%;
+}
+
+.codeEditorWrapper .CodeMirror-code::-webkit-scrollbar {
+  width: 0px;
+}
+
+.CodeMirror-cursors {
+  width: 10px !important;
+  background: #000 !important;
 }
